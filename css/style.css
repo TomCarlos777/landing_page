@@ -7,9 +7,9 @@ Estilização Global
 
 body {
     font-family: Arial, Helvetica, sans-serif; /* Altera o tipo de fonte presente no documento*/
-    background-color: #f7f7f7;
-    display: grid;
-    justify-items: center;
+    background-color: #f7f7f7; /* Altera a cor de fundo do body */
+    display: grid; /* Faz com que o body se comporte como um grid */
+    justify-items: center; /* Alinha os itens no centro do grid */
 }
 
 p {
@@ -22,10 +22,15 @@ a {
 
 img {
     max-width: 100%; /* Evita que o overflow da imagem, a img ocupa 100% do elemento pai*/
+    display: block; /* Faz com que a img se comporte sempre como um bloco, ou seja do inicio ao fim do container*/
 }
 
 li {
     list-style: none; /* Tira as bolinhas */
+}
+
+p,h1,h2,h3 {
+    margin: 0; /* Remove a margem padrão do navegador */
 }
 
 /*
@@ -49,7 +54,7 @@ Estilização do Header
 
 .menu a:hover {
     background-color: #ee2211;
-    color: #ffffff;
+    color: #ffffff; /* Altera a cor do texto para branco */
 }
 
 /*
@@ -59,9 +64,9 @@ Estilização do Conteudo
 */
 
 .conteudo {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    max-width: 1000px;
+    display: grid; /* Faz com que o conteúdo se comporte como um grid */
+    grid-template-columns: 1fr 1fr; /* Cria duas colunas com o mesmo tamanho */
+    max-width: 1000px; /* Limita o tamanho do conteúdo */
 }
 
 .introducao{
@@ -91,9 +96,38 @@ Estilização do Conteudo
     border-radius: 4px;
 }
 
-.rodape {
+
+/*
+=========================
+Estilização das Vantagens
+=========================
+*/
+
+.vantgens {
+    display: grid;
     background-color: #ffffff;
+    grid-template-columns: auto 1fr;
+    gap: 20px;
     padding: 40px;
-    text-align: center;
+}
+
+.vantgens-item {
+    grid-column: 2;
+    
+}
+
+
+
+
+/*
+=====================
+Estilização do Rodapé
+=====================
+*/
+.rodape {
+    background-color: #ffffff; /* Cor de fundo do rodapé */
+    padding: 40px 0; /* 40px para cima e para baixo e 0 para direita e esquerda */
+    text-align: center; /* Alinha o texto no centro */
     width: 100%; /* Faz com que o elemento atual fique 100% do tamanho do elemento pai (Você não está utilizando display)*/
+    box-sizing: border-box; /* Faz com que o padding não aumente o tamanho do elemento */
 }

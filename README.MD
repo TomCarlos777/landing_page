@@ -1,49 +1,52 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bickcraftt</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <img src="./img/bikcraft.svg" alt="Logo da Bickcraft">
+# 🚲 Bikcraft - Website Promocional
 
-    <ul class="menu">
-        <li><a href="">Sobre</a></li>
-        <li><a href="">Produtos</a></li>
-        <li><a href="">Lojas</a></li>
-        <li><a href="">Contato</li>
-    </ul>
+Este projeto consiste em um site promocional para a empresa **Bikcraft**, especializada na venda de bicicletas feitas à mão. O site apresenta informações sobre os produtos, vantagens e formas de contato da empresa. O design é moderno e responsivo, garantindo uma boa experiência para os usuários.
 
-    <div class="conteudo">
-        <h1>Bicicletas feitas a mão</h1>
-        <p>A Nimbus é a melhor versão Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios da marca.</p>
-        <a href="" class="botao">Ver mais</a>
-    
-        <img src="./img/bicicleta.jpg" alt="Bicicleta Bikcraft Preta">
-        <h2 class="subtitulo">Vantagens Bikcraft</h2>
+## 🎯 Funcionalidades
 
-        <div class="vantagens">
-            <div class="vantagens-item">
-                <img src="./img/eletrica.svg" alt="">
-                <h3>Motor elétrico</h3>
-                <p>Permite você viajar distâncias inimagináveis com a sua bike.</p>
-            </div>
+- Exibição da marca e identidade visual da **Bikcraft**.
+- Navegação intuitiva com menu de links para diferentes seções do site.
+- Destaque para os diferenciais das bicicletas.
+- Chamadas para ação incentivando a compra e o contato.
 
-        <div class="vantagens-item">
-                <img src="./img/velocidade.svg" alt="">
-                <h3>40 Km/h</h3>
-                <p>A mais rápida bicicleta elétrica disponível hoje no mercado.</p>
-        </div>
+## 📋 Estrutura do Projeto
 
-        <div class="vantagens-item">
-                <img src="./img/rastreador.svg" alt="">
-                <h3>Rastreador</h3>
-                <p>Rastreador e sistema anti-furto para garantir o seu sossego.</p>
-            </div>
+O site é composto por arquivos HTML e CSS organizados para garantir um design atrativo e funcional:
 
-        </div>
-    </div>
-</body>
-</html>
+- **index.html**: Estrutura principal do site com seções sobre a empresa, produtos, lojas e contato.
+- **style.css**: Estilização das páginas com foco em responsividade e experiência do usuário.
+- **Imagens**: Logos, ícones e fotos dos produtos para compor a identidade visual do site.
+
+## 🚀 Tecnologias Utilizadas
+
+As principais tecnologias utilizadas no desenvolvimento deste projeto são:
+
+- **HTML5**: Para estruturação do conteúdo da página.
+- **CSS3**: Para estilização e layout responsivo.
+- **Grid Layout e Flexbox**: Para organização dos elementos na página.
+- **Imagens e Ícones**: Para enriquecer a experiência visual do usuário.
+
+## 📦 Como Rodar o Projeto
+
+1. Faça o download ou clone este repositório:
+
+```bash
+git clone https://github.com/seu-usuario/bikcraft-website.git
+```
+
+2. Abra o arquivo `index.html` em seu navegador.
+
+## 🏗️ Estrutura do Código
+
+- **Cabeçalho**: Contém o logotipo e o menu de navegação.
+- **Seção de Introdução**: Apresenta um banner com destaque para o principal produto.
+- **Seção de Vantagens**: Lista os benefícios da bicicleta **Bikcraft**.
+- **Rodapé**: Exibe informações sobre direitos autorais.
+
+## 🤝 Contribuições
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir *issues* e *pull requests*.
+
+## 📄 Licença
+
+Este projeto está licenciado sob a [MIT License](LICENSE).
